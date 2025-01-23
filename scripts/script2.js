@@ -11,7 +11,7 @@ let gameFrame = 0;
 class Enemy {
   constructor() {
     this.image = new Image();
-    this.image.src = "/images/enemy2.png";
+    this.image.src = "./images/enemy2.png";
     this.spriteWidth = 266;
     this.spriteHeight = 188;
     this.width = this.spriteWidth / 2.5;
